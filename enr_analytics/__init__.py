@@ -1,4 +1,5 @@
 import matplotlib
+from os import path
 
 # Define functions removing right and top border chartarea border
 def removeLines(ax) :
@@ -14,5 +15,5 @@ def savePlot(path) :
 
 # Set matplotlib template
 def initialChartConfig() :
-    matplotlib.pyplot.style.use('https://raw.githubusercontent.com/mikolajolszewski/enr_analytics/master/enr_analytics/enr_analytics.mplstyle')
+    matplotlib.pyplot.style.use(resources_dir = path.join(path.dirname(__file__), 'enr_analytics.mplstyle'))
     matplotlib.rcParams['font.family'] = 'Open Sans'
