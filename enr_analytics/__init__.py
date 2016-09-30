@@ -15,5 +15,5 @@ def savePlot(path) :
 
 # Set matplotlib template
 def initialChartConfig() :
-    matplotlib.pyplot.style.use(resources_dir = path.join(path.dirname(__file__), 'enr_analytics.mplstyle'))
+    matplotlib.pyplot.style.use(path.join(path.dirname(__file__), 'enr_analytics.mplstyle'))
     matplotlib.rcParams['font.family'] = 'Open Sans'
