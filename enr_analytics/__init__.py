@@ -14,5 +14,5 @@ def savePlot(path) :
 
 # Set matplotlib template
 def initialChartConfig() :
-    matplotlib.pyplot.style.use('https://raw.githubusercontent.com/mikolajolszewski/end_analytics/master/enr_analytics/enr_analytics.mplstyle')
+    matplotlib.pyplot.style.use('https://raw.githubusercontent.com/mikolajolszewski/enr_analytics/master/enr_analytics/enr_analytics.mplstyle')
     matplotlib.rcParams['font.family'] = 'Open Sans'
